@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hangman</title>
+</head>
+<body>
+
+	<div id="xxxxx">
+			
+		<p id="word"></p>
+
+		<br />
+		<input type="text" id="wordToGuess" placeholder="Enter the word you want to Guess..."/>
+		<button onclick="setString()">Set the string</button>
+		<br />
+
+	</div>
+
+		<br />
+	    <input type="text" id="guess" placeholder="Enter your guess..."/>
+		<button onclick="guessProcess()">Submit</button>
+		<br />
+		<div id="message" style="height:400px;color:red;border:3px red solid;overflow:auto;"></div>
+		<br />
+		<canvas style="border:3px solid red;" id="myCanvas" width="600" height="600"></canvas>
+
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
